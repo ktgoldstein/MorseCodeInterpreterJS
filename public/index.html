@@ -1,0 +1,26 @@
+<html>
+    <head> 
+        <title>Morse Code Interpreter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Morse Code Interpreter</h1>
+        <p>This interface allows you to translate morse code to English. </p>
+        <p>Morse characters must be separated by a single space, and words must be separated by exactly 3 spaces.</p>
+        <label for="morseInput">Enter your morse code here:</label>
+        <br />
+        <textarea id="morseInput" rows="6" cols="84" placeholder="Enter morse code here...">.... . .-.. .-.. ---   .-- --- .-. .-.. -..</textarea>
+        <br />
+        <button onclick="morseToEnglish()">Translate</button>
+        <br />
+        <label for="answer">Answer:</label>
+        <p id="answer"></p>
+
+
+
+        <script src="script.js"></script>
+
+    </body>
+
+
+</html>
